@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1 | Jiyang</title><link>https://chenjiyang.dev/publication-type/1/</link><atom:link href="https://chenjiyang.dev/publication-type/1/index.xml" rel="self" type="application/rss+xml"/><description>1</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://chenjiyang.dev/media/icon_hubeb358f898f9b694d2f7e69ba2de24fd_15906_512x512_fill_lanczos_center_3.png</url><title>1</title><link>https://chenjiyang.dev/publication-type/1/</link></image><item><title>Latency analysis of self-suspending task chains</title><link>https://chenjiyang.dev/publication/latency/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://chenjiyang.dev/publication/latency/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1 | Jiyang</title><link>https://chenjiyang.dev/publication-type/1/</link><atom:link href="https://chenjiyang.dev/publication-type/1/index.xml" rel="self" type="application/rss+xml"/><description>1</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate><image><url>https://chenjiyang.dev/media/icon_hubeb358f898f9b694d2f7e69ba2de24fd_15906_512x512_fill_lanczos_center_3.png</url><title>1</title><link>https://chenjiyang.dev/publication-type/1/</link></image><item><title>vFPIO: A Virtual I/O Abstraction for FPGA-accelerated I/O Devices</title><link>https://chenjiyang.dev/publication/vfpio/</link><pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><guid>https://chenjiyang.dev/publication/vfpio/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Schedulability Analysis of Non-preemptive Sporadic Gang Tasks on Hardware Accelerators</title><link>https://chenjiyang.dev/publication/sched_gang/</link><pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate><guid>https://chenjiyang.dev/publication/sched_gang/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>SchedGuard++: Protecting against Schedule Leaks Using Linux Containers on Multi-Core Processors</title><link>https://chenjiyang.dev/publication/sched_guard++/</link><pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate><guid>https://chenjiyang.dev/publication/sched_guard++/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+&lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Latency analysis of self-suspending task chains</title><link>https://chenjiyang.dev/publication/latency/</link><pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate><guid>https://chenjiyang.dev/publication/latency/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -20,14 +53,4 @@ Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check
 &lt;/div>
 &lt;/div>
 -->
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>An example conference paper</title><link>https://chenjiyang.dev/publication/example/</link><pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate><guid>https://chenjiyang.dev/publication/example/</guid><description>&lt;div class="alert alert-note">
-&lt;div>
-Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-&lt;/div>
-&lt;/div>
-&lt;div class="alert alert-note">
-&lt;div>
-Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
-&lt;/div>
-&lt;/div>
-&lt;p>Supplementary notes can be added here, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">code, math, and images&lt;/a>.&lt;/p></description></item></channel></rss>
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item></channel></rss>
