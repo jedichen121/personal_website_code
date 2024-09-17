@@ -1,30 +1,25 @@
 ---
-title: "SchedGuard: Protecting against Schedule Leaks Using Linux Containers"
+title: "vFPIO: A Virtual I/O Abstraction for FPGA-accelerated I/O Devices"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Tomasz Kloda
-- Ayoosh Bansal
-- Rohan Tabish
-- Chien-Ying Chen
-- Bo Liu
-- Sibin Mohan
-- Marco Caccamo
-- Lui Sha
+- Harshavardhan Unnibhavi
+- Atsushi Koshiba
+- Pramod Bhatotia
 
 # Author notes (optional)
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2021-05-18T00:00:00Z"
-doi: "10.1109/RTAS52030.2021.00010"
+date: "2024-06-01T00:00:00Z"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-05-18T00:00:00Z"
+publishDate: "2024-06-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -33,10 +28,10 @@ publishDate: "2021-05-18T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In 2021 IEEE 27th Real-Time and Embedded Technology and Applications Symposium
-publication_short: In *2021 IEEE 27th Real-Time and Embedded Technology and Applications Symposium (RTAS) *
+publication: In 2024 USENIX Annual Technical Conference
+publication_short: In *2024 USENIX Annual Technical Conference*
 
-abstract: Real-time systems have recently been shown to be vulnerable to timing inference attacks, mainly due to their predictable behavioral patterns. Existing solutions such as schedule randomization lack the ability to protect against such attacks, often limited by the system's real-time nature. This paper presents “SchedGuard”, a temporal protection framework for Linux-based hard real-time systems that protects against posterior scheduler side-channel attacks by preventing untrusted tasks from executing during specific time segments. SchedGuard is integrated into the Linux kernel using cgroups, making it amenable to use with container frameworks. We demonstrate the effectiveness of our system using a realistic radio-controlled rover platform and synthetically generated workloads. Not only is SchedGuard able to protect against the attacks mentioned above, but it also ensures that the real-time tasks/containers meet their temporal requirements.
+abstract: Modern cloud systems have adopted a variety of FPGA-accelerated I/O devices, such as SmartNICs and computational storage, while they face programmability and portability challenges. Existing FPGA frameworks either directly expose device-specific I/O interfaces to user logic or offer virtualized I/Os limited to a single device type. The lack of I/O abstraction imposes high engineering costs, less design portability, and even unexpected throughput degradation. We introduce vFPIO, an FPGA-based I/O acceleration framework that brings better programmability and design portability. vFPIO extends modern FPGA OSes to expose virtual I/O ports to user logic, which abstracts device-dependent I/O specifications and makes the user logic design platform-agnostic. The connectivity between virtual and physical I/O ports can be easily configured by host applications using POSIX-like file APIs. vFPIO also offers a preemptive I/O transaction scheduler that alleviates the I/O throughput degradation caused by concurrent I/O requests from multiple accelerators in a multi-tenant environment. We implement a prototype of the vFPIO framework on x86 servers equipped with AMD Xilinx Alveo U280 cards. Our prototype supports four different I/O interfaces, PCIe, DRAM, HBM, and network. Our evaluation highlights that vFPIO incurs negligible performance overheads compared to Coyote, one of the latest FPGA OSes, while preserving the maximum I/O throughput for high-priority tasks even under resource contention.
 
 
 # # Summary. An optional shortened abstract.

@@ -30,7 +30,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In Design, Automation & Test in Europe Conference & Exhibition, DATE 2022
-publication_short: In *DATE*
+publication_short: In *2022 Design, Automation & Test in Europe Conference & Exhibition (DATE)*
 
 abstract: Many cyber-physical systems are offloading computation-heavy programs to hardware accelerators (e.g., GPU and TPU) to reduce execution time. These applications will self-suspend between offloading data to the accelerators and obtaining the returned results. Previous efforts have shown that self-suspending tasks can cause scheduling anomalies, but none has examined inter-task communication. This paper aims to explore self-suspending tasks’ data chain latency with periodic activation and asynchronous message passing. We first present the cause for suspension-induced delays and worst-case latency analysis. We then propose a rule for utilizing the hardware co-processors to reduce data chain latency and schedulability analysis. Simulation results show that the proposed strategy can improve overall latency while preserving system schedulability.
 
