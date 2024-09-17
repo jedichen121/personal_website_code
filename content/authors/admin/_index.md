@@ -73,7 +73,7 @@ highlight_name: true
 ---
 
 
-I’m a PhD student in the Department of Informatics at TU Munich, in the Decentralized Systems Engineering chair's OS and Virtualization. My current research focuses are FPGA resource management and Function-as-a-Service in the cloud.
+I’m a PhD student in the Department of Informatics at TU Munich, in the Decentralized Systems Engineering chair's Accelerated Computing Systems group. My current research focuses are FPGA resource management and Function-as-a-Service in the cloud.
 
 I obtained my Master in Computer Science in University of Illinois at Urbana Champaign (UIUC), where I worked on system and application level approaches to secure and assure Cyber-Physical Systems. My focus was in real-time system, Linux kernel, machine learning, and computer security.
 
