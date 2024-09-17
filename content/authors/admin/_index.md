@@ -32,7 +32,7 @@ education:
   - course: Master of Science in Aerospace engineering
     institution: University of Illinois at Urbana Champaign
     year: 2016
-  - course: BEng in Vehicle Engineering
+  - course: Bachelor of Engineering in Vehicle Engineering
     institution: Tshinghua University
     year: 2014
 

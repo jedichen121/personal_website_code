@@ -1,26 +1,30 @@
 ---
-title: "Latency analysis of self-suspending task chains"
+title: "SchedGuard++: Protecting against Schedule Leaks Using Linux Containers on Multi-Core Processors"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Tomasz Kloda
 - admin
-- Antoine Bertout
-- Lui Sha
+- Tomasz Kloda
+- Rohan Tabish
+- Ayoosh Bansal
+- Chien-Ying Chen
+- Bo Liu
+- Sibin Mohan
 - Marco Caccamo
+- Lui Sha
 
 # Author notes (optional)
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2022-03-01T00:00:00Z"
-doi: "10.23919/DATE54114.2022.9774655"
+date: "2023-02-20T00:00:00Z"
+doi: "https://doi.org/10.1145/3565974"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-02-18T00:00:00Z"
+publishDate: "2023-02-20T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -29,11 +33,10 @@ publishDate: "2022-02-18T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In Design, Automation & Test in Europe Conference & Exhibition, DATE 2022
-publication_short: In *2022 Design, Automation & Test in Europe Conference & Exhibition (DATE)*
+publication: In ACM Transactions on Cyber-Physical Systems
+publication_short: In *ACM Transactions on Cyber-Physical Systems*
 
-abstract: Many cyber-physical systems are offloading computation-heavy programs to hardware accelerators (e.g., GPU and TPU) to reduce execution time. These applications will self-suspend between offloading data to the accelerators and obtaining the returned results. Previous efforts have shown that self-suspending tasks can cause scheduling anomalies, but none has examined inter-task communication. This paper aims to explore self-suspending tasks’ data chain latency with periodic activation and asynchronous message passing. We first present the cause for suspension-induced delays and worst-case latency analysis. We then propose a rule for utilizing the hardware co-processors to reduce data chain latency and schedulability analysis. Simulation results show that the proposed strategy can improve overall latency while preserving system schedulability.
-
+abstract: Timing correctness is crucial in a multi-criticality real-time system, such as an autonomous driving system. It has been recently shown that these systems can be vulnerable to timing inference attacks, mainly due to their predictable behavioral patterns. Existing solutions like schedule randomization cannot protect against such attacks, often limited by the system’s real-time nature. This article presents “SchedGuard++”, a temporal protection framework for Linux-based real-time systems that protects against posterior schedule-based attacks by preventing untrusted tasks from executing during specific time intervals. SchedGuard++ supports multi-core platforms and is implemented using Linux containers and a customized Linux kernel real-time scheduler. We provide schedulability analysis assuming the Logical Execution Time (LET) paradigm, which enforces I/O predictability. The proposed response time analysis takes into account the interference from trusted and untrusted tasks and the impact of the protection mechanism. We demonstrate the effectiveness of our system using a realistic radio-controlled rover platform. Not only is “SchedGuard++” able to protect against the posterior schedule-based attacks, but it also ensures that the real-time tasks/containers meet their temporal requirements.
 
 # # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

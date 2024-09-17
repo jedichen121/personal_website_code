@@ -34,7 +34,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In 2021 IEEE 27th Real-Time and Embedded Technology and Applications Symposium
-publication_short: In *2021 IEEE 27th Real-Time and Embedded Technology and Applications Symposium (RTAS) *
+publication_short: In *2021 IEEE 27th Real-Time and Embedded Technology and Applications Symposium (RTAS)*
 
 abstract: Real-time systems have recently been shown to be vulnerable to timing inference attacks, mainly due to their predictable behavioral patterns. Existing solutions such as schedule randomization lack the ability to protect against such attacks, often limited by the system's real-time nature. This paper presents “SchedGuard”, a temporal protection framework for Linux-based hard real-time systems that protects against posterior scheduler side-channel attacks by preventing untrusted tasks from executing during specific time segments. SchedGuard is integrated into the Linux kernel using cgroups, making it amenable to use with container frameworks. We demonstrate the effectiveness of our system using a realistic radio-controlled rover platform and synthetically generated workloads. Not only is SchedGuard able to protect against the attacks mentioned above, but it also ensures that the real-time tasks/containers meet their temporal requirements.
 

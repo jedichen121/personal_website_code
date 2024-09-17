@@ -28,8 +28,8 @@ publishDate: "2024-06-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In 2024 USENIX Annual Technical Conference
-publication_short: In *2024 USENIX Annual Technical Conference*
+publication: In 2024 USENIX Annual Technical Conference (USENIX ATC 24)
+publication_short: In *2024 USENIX Annual Technical Conference (USENIX ATC 24)*
 
 abstract: Modern cloud systems have adopted a variety of FPGA-accelerated I/O devices, such as SmartNICs and computational storage, while they face programmability and portability challenges. Existing FPGA frameworks either directly expose device-specific I/O interfaces to user logic or offer virtualized I/Os limited to a single device type. The lack of I/O abstraction imposes high engineering costs, less design portability, and even unexpected throughput degradation. We introduce vFPIO, an FPGA-based I/O acceleration framework that brings better programmability and design portability. vFPIO extends modern FPGA OSes to expose virtual I/O ports to user logic, which abstracts device-dependent I/O specifications and makes the user logic design platform-agnostic. The connectivity between virtual and physical I/O ports can be easily configured by host applications using POSIX-like file APIs. vFPIO also offers a preemptive I/O transaction scheduler that alleviates the I/O throughput degradation caused by concurrent I/O requests from multiple accelerators in a multi-tenant environment. We implement a prototype of the vFPIO framework on x86 servers equipped with AMD Xilinx Alveo U280 cards. Our prototype supports four different I/O interfaces, PCIe, DRAM, HBM, and network. Our evaluation highlights that vFPIO incurs negligible performance overheads compared to Coyote, one of the latest FPGA OSes, while preserving the maximum I/O throughput for high-priority tasks even under resource contention.
 

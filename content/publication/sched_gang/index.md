@@ -1,26 +1,27 @@
 ---
-title: "Latency analysis of self-suspending task chains"
+title: "Schedulability Analysis of Non-preemptive Sporadic Gang Tasks on Hardware Accelerators"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
+- Binqi Sun
 - Tomasz Kloda
 - admin
-- Antoine Bertout
-- Lui Sha
+- Cen Lu
 - Marco Caccamo
+
 
 # Author notes (optional)
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
 
-date: "2022-03-01T00:00:00Z"
-doi: "10.23919/DATE54114.2022.9774655"
+date: "2023-05-18T00:00:00Z"
+doi: "10.1109/RTAS58335.2023.00019"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-02-18T00:00:00Z"
+publishDate: "2023-06-23T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -29,10 +30,10 @@ publishDate: "2022-02-18T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In Design, Automation & Test in Europe Conference & Exhibition, DATE 2022
-publication_short: In *2022 Design, Automation & Test in Europe Conference & Exhibition (DATE)*
+publication: In 2023 IEEE 29th Real-Time and Embedded Technology and Applications Symposium
+publication_short: In *2023 IEEE 29th Real-Time and Embedded Technology and Applications Symposium (RTAS)*
 
-abstract: Many cyber-physical systems are offloading computation-heavy programs to hardware accelerators (e.g., GPU and TPU) to reduce execution time. These applications will self-suspend between offloading data to the accelerators and obtaining the returned results. Previous efforts have shown that self-suspending tasks can cause scheduling anomalies, but none has examined inter-task communication. This paper aims to explore self-suspending tasks’ data chain latency with periodic activation and asynchronous message passing. We first present the cause for suspension-induced delays and worst-case latency analysis. We then propose a rule for utilizing the hardware co-processors to reduce data chain latency and schedulability analysis. Simulation results show that the proposed strategy can improve overall latency while preserving system schedulability.
+abstract: Non-preemptive rigid gang scheduling combines the performance benefits of parallel execution with the low overhead of non-preemptive scheduling and rigid task programming model. This approach appears particularly well-suited for parallel hardware accelerators where the context switch and migration overheads are critical and should be avoided. One of the most notable examples today is Google's Edge Tensor Processing Unit (TPU) used for neural network inference on embedded boards. The paper studies sporadic non-preemptive rigid gang scheduling applied to multi-TPU edge AI accelerators. Each gang task spawns a fixed number of threads that must execute simultaneously on distinct processing units. We consider non-preemptive fixed-priority gang (NP-FP-Gang) scheduling and propose the first carry-in limitation for gang task response time analysis. The gang task carry-in limitation differs from conventional sequential tasks due to the intra-task parallelism. We formulate it as a generalized knapsack problem and develop a linear programming relaxation and a dynamic programming approach to solve the problem under different time complexities. The performance of the proposed schedulability analysis is evaluated through randomly generated synthetic task sets and a case study using neural network benchmarks executed on commercial off-the-shelf multi-TPU edge AI accelerators. The evaluation results show that the proposed response time analysis effectively improves the state of-the-art NP-FP-Gang schedulability test even by 85.7% for the Edge TPU benchmarks in particular.
 
 
 # # Summary. An optional shortened abstract.
