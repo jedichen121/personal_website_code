@@ -1,3 +1,9 @@
+# To start
+
+Install Hugo [0.95.0](https://github.com/gohugoio/hugo/releases/tag/v0.95.0) and golang. 
+
+Then in the code repo, run `hugo server`.
+
 # [Hugo Academic Theme](https://github.com/wowchemy/starter-hugo-academic)
 
 [![Screenshot](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-themes/main/academic.png)](https://wowchemy.com/hugo-themes/)
