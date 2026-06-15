@@ -1,6 +1,6 @@
 # To start
 
-Install Hugo [0.95.0](https://github.com/gohugoio/hugo/releases/tag/v0.95.0) and golang. 
+Install Hugo [0.95.0](https://github.com/gohugoio/hugo/releases/tag/v0.95.0) and golang with `sudo apt install golang-go`. 
 
 Then in the code repo, run `hugo server`.
 
