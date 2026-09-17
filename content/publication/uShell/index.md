@@ -30,7 +30,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In 2026 USENIX Symposium on Operating Systems Design and Implementation (USENIX OSDI 26)
-publication_short: In *2026 USENIX Symposium on Operating Systems Design and Implementation (USENIX OSDI 26)*
+publication_short: In *2026 USENIX Symposium on Operating Systems Design and Implementation (USENIX OSDI 26)* (🏆Distinguished Artifact Award)
 
 abstract: FPGAs are widely adopted in cloud environments to meet the growing demand for high-performance, energy-efficient computing, thanks to their unique reconfigurability and programmability. However, the state-of-the-art design of FPGA shells is built for monolithic applications, creating a fundamental architectural mismatch with real-world applications that are highly modular and composable. Modern applications consist of diverse, independent tasks that are often instantiated as standalone hardware modules on FPGAs. The current FPGA shell design statically connects these modules to compose an application-specific, monolithic accelerator on a single virtual FPGA (vFPGA), leading to fundamental challenges such as limited flexibility, poor scalability, resource inefficiency, high scheduling overheads, and programmability issues. To bridge this research gap, we introduce 𝜇Shell, a new hardware-OS co-design that addresses these challenges by applying microkernel principles to FPGA acceleration. 𝜇Shell treats accelerators as a collection of shareable, composable hardware modules, deploying them into distinct vFPGAs and dynamically linking them with a novel inter-process communication (IPC) mechanism. This approach is further supported by capability-enforced isolation and a component-aware task scheduler. Our implementation of a 𝜇Shell prototype and its evaluation against a state-of-the-art monolithic shell demonstrate that it effectively deploys real-world applications with improved performance, flexibility, and resource efficiency.
 
@@ -60,7 +60,7 @@ featured: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
@@ -79,6 +79,11 @@ image:
 #   Otherwise, set `slides: ""`.
 # slides: example
 ---
+
+{{% callout note %}}
+🏆 **USENIX OSDI 2026 Distinguished Artifact Award**
+{{% /callout %}}
+
 
 <!-- {{% callout note %}}
 Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
